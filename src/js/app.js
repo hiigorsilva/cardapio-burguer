@@ -180,7 +180,7 @@ function finalizeOrder() {
 function checkRestaurantOpen() {
   const data = new Date()
   const hour = data.getHours()
-  return hour >= 19 && hour < 22 // true: restaurante aberto
+  return hour >= 18 && hour < 22 // true: restaurante aberto
 }
 
 const spanItem = document.querySelector("#date-span")
